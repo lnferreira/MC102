@@ -1,0 +1,20 @@
+[workspace]
+authors = ["lnferreira <ferreira@leonardonascimento.com>"]
+channels = ["conda-forge"]
+name = "mc102"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+numpy = ">=2.4.2,<3"
+py-opencv = ">=4.13.0,<5"
+opencv = ">=4.13.0,<5"
+matplotlib = ">=3.10.8,<4"
+transformers = ">=5.2.0,<6"
+pytorch = ">=2.10.0,<3"
+
+[pypi-dependencies]
+cvlib = ">=0.2.7, <0.3"
