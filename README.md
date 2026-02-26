@@ -1,6 +1,12 @@
 # MC102 - Algoritmos e Programação de Computadores
 
-Este repositório contém os materiais e exercícios da disciplina MC102 - Algoritmos e Programação de Computadores, da Unicamp.
+Este repositório contém materiais utilizados na disciplina [MC102 - Algoritmos e Programação de Computadores](https://www.ic.unicamp.br/~zanoni/teaching/mc102/2026-1s/), da Unicamp.
+
+## Professor
+
+**Leonardo Nascimento Ferreira** \
+[www.leonardoferreira.com](http://www.leonardoferreira.com) \
+[lnf@ic.unicamp.br](mailto:lnf@ic.unicamp.br)
 
 ## Ambiente de Desenvolvimento
 
@@ -29,4 +35,11 @@ Para executar os scripts, utilize o ambiente `pixi`. Por exemplo, para executar 
 
 ```bash
 pixi run python aula01/ex1_classificador_imagem.py
+```
+
+Ou então, ative o ambiente e execute os scripts diretamente:
+
+```bash
+pixi shell
+python aula01/ex1_classificador_imagem.py
 ```
