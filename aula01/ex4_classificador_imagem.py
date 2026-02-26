@@ -5,7 +5,7 @@ from PIL import Image
 classificador = pipeline("image-classification", model="google/vit-base-patch16-224")
 
 # 2. Abrir uma imagem (pode ser um arquivo local ou URL)
-imagem = Image.open("data/dog.jpg")
+imagem = Image.open("../data/img/dog.jpg")
 
 # 3. Pedir para a IA classificar
 resultados = classificador(imagem)
