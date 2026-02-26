@@ -18,3 +18,4 @@ pytorch = ">=2.10.0,<3"
 
 [pypi-dependencies]
 cvlib = ">=0.2.7, <0.3"
+pyttsx3 = ">=2.90, <3"
