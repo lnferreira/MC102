@@ -4,6 +4,10 @@
 # segundo grau. O seu programa deve receber três números a, b e c,
 # sendo que a equação é definida como ax2 + bx + c = 0. O seu
 # programa também deve tratar o caso em que a = 0.
+#
+# Exemplo1: 0x2 -5x + 10 = 2
+# Exemplo2: 1x2 -6x + 9 = 3
+# Exemplo2: 1x2 -5x + 6 = 2 e 3
 
 
 a = float(input("Entre com o coeficiente a: "))
