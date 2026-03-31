@@ -9,8 +9,9 @@ while n != 1:
             break
     # Se o fator for primo
     else:
-        # Verifica se o fator é um divisor de n
+        # Enquanto o fator for um divisor de n
         while n % fator == 0:
             print(fator)
+            # Atualiza o valor de n dividindo-o pelo fator
             n = n / fator
     fator = fator + 1
