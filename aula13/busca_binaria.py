@@ -1,3 +1,5 @@
+# Busca Binária Recursiva
+
 def busca_binaria(lista, elemento, inicio, fim):
     if inicio > fim:
         return -1

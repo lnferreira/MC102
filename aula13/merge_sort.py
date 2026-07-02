@@ -45,13 +45,7 @@ def merge(lista_esquerda, lista_direita):
 
     return lista_unida
 
-lista = []
-while True:
-    x = input("Digite um número: ")
-    if x == "":
-        break
-    lista.append(int(x))
-
+lista = [8, 6, 4, 1, 3, 2, 7, 5]
 print(merge_sort(lista))
 
 
